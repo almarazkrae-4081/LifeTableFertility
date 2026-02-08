@@ -1,0 +1,29 @@
+Package: LifeTableFertility
+Type: Package
+Title: Shiny Application for Life Table and Fertility Analysis
+Version: 0.1.0
+Authors@R: c(
+  person("Victor Manuel", "Almaraz Valle", email = "almarazkrae@gmail.com", role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-3673-8002")))
+Description: Provides a Shiny application to construct age-specific life tables and fertility
+ schedules from individual female daily egg records. The application computes
+ age-specific survival, fertility and reproduction functions and estimates key
+ demographic parameters including the net reproductive rate, mean generation time,
+ intrinsic rate of increase, finite rate of increase and doubling time. Optional
+ confidence intervals for demographic parameters can be obtained using percentile
+ bootstrap or delete-1 jackknife resampling at the female level.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    shiny,
+    DT,
+    ggplot2,
+    stats,
+    utils
+Suggests:
+    knitr,
+    rmarkdown
+URL:
+BugReports:

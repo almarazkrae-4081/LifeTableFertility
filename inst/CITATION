@@ -1,0 +1,19 @@
+citHeader("To cite LifeTableFertility in publications, please use:")
+
+bibentry(
+  bibtype = "Manual",
+  title   = "LifeTableFertility: Shiny Application for Life Table and Fertility Analysis from Individual Females",
+  author  = c(
+    person("Victor Manuel", "Almaraz Valle"),
+    person("J. Concepción", "Rodríguez Maciel"),
+    person("Gustavo", "Ramírez Valverde"),
+    person("Manuel Alejandro", "Tejeda Reyes"),
+    person("Jaime Alfredo", "Urzua Gutierrez")
+  ),
+  year    = "2026",
+  note    = "R package version 0.1.0",
+  textVersion =
+    "Almaraz Valle, V. M., Rodríguez Maciel, J. C., Ramírez Valverde, G., Tejeda Reyes, M. A., & Urzua Gutierrez, J. A. (2026).
+     LifeTableFertility: Shiny Application for Life Table and Fertility Analysis from Individual Females.
+     R package version 0.1.0."
+)

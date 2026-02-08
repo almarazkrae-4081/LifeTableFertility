@@ -25,5 +25,5 @@ Imports:
 Suggests:
     knitr,
     rmarkdown
-URL:
-BugReports:
+URL: https://github.com/almarazkrae-4081/LifeTableFertility
+BugReports: https://github.com/almarazkrae-4081/LifeTableFertility/issues
